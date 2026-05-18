@@ -1,0 +1,64 @@
+# ==================================================
+#  DÉPENDANCES NODE.JS
+# ==================================================
+# Généré automatiquement par "npm install"
+node_modules/
+
+# ==================================================
+# VARIABLES D'ENVIRONNEMENT & SECRETS
+
+.env
+.env.local
+.env.*.local
+
+# .env.example  il sert de documentation !
+
+# ==================================================
+# FICHIERS DE LOGS
+
+# Générés automatiquement par Node.js et npm
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==================================================
+#  FICHIERS SYSTÈME (OS)
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ==================================================
+#  ÉDITEURS DE CODE
+
+# VS Code 
+.vscode/*
+!.vscode/extensions.json   
+
+# JetBrains (WebStorm, IntelliJ...)
+.idea/
+
+# ==================================================
+# CACHE & FICHIERS GÉNÉRÉS
+
+# Cache npm/yarn
+.npm
+.yarn-integrity
+
+# Dossier de build/dist 
+dist/
+build/
+
+# Coverage des tests
+coverage/
