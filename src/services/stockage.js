@@ -1,7 +1,11 @@
 //importation de module fs pour la gestion de fichiers
 import fs from "node:fs/promises";
-//Définir le chemin du fichier de stockage
-const FILE_PATH = new URL("../data/stockage.json", import.meta.url);
+
+//recuperer le chemin du fichier depuis .env
+const fichier = process.env.FICHIER_TACHES;
+
+//Définir le chemin absolue du fichier de stockage
+const FILE_PATH = new URL(fichier, import.meta.url);
 
 //fonction pour charger les tâches
 export async function chargerTaches(){
