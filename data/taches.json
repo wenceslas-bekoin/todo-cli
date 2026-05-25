@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "texte": "Apprendre le module fs de node.js",
+    "complete": true
+  },
+  {
+    "texte": "Comprendre les bases de JavaScript",
+    "complete": true
+  },
+  {
+    "texte": "Apprendre JavaScript",
+    "complete": false
+  },
+  {
+    "texte": "Comprendre Node.js",
+    "complete": false
+  },
+  {
+    "texte": "Apprendre Python",
+    "complete": false
+  }
+]
